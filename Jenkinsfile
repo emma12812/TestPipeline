@@ -2,13 +2,19 @@ pipeline{
   agent any
   stages {
     stage("build") {
+      steps {
       echo 'building application in main'
+      }
     }
     stage("test") {
-      echo 'testing application in main'
+      steps {
+        echo 'testing application in main'
+      }
     }
     stage("maintain") {
-      echo 'maintaining application in main'
+      steps {
+        echo 'maintaining application in main'
+      }
     }
   }
 }

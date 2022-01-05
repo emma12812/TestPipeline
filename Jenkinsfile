@@ -13,7 +13,7 @@ pipeline{
     }
     stage("maintain") {
       steps {
-        echo 'maintaining application in main'
+        echo 'maintaining application in mai n'
       }
     }
   }
